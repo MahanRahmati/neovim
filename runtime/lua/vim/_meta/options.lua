@@ -7508,6 +7508,13 @@ vim.o.vdir = vim.o.viewdir
 vim.go.viewdir = vim.o.viewdir
 vim.go.vdir = vim.go.viewdir
 
+--- When set, keeps the cursor vertically centered in the window.
+--- @type boolean
+vim.o.verticalcursor = false
+vim.o.vcur = vim.o.verticalcursor
+vim.go.verticalcursor = vim.o.verticalcursor
+vim.go.vcur = vim.go.verticalcursor
+
 --- Changes the effect of the `:mkview` command.  It is a comma-separated
 --- list of words.  Each word enables saving and restoring something:
 ---    word		save and restore ~

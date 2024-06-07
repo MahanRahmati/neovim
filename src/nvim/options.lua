@@ -9385,6 +9385,18 @@ return {
       varname = 'p_vdir',
     },
     {
+      abbreviation = 'vcur',
+      defaults = { if_true = false },
+      desc = [=[
+        Keep the cursor vertically aligned and move the content instead.
+      ]=],
+      full_name = 'verticalcursor',
+      scope = { 'global' },
+      short_desc = N_('keep the cursor vertically aligned'),
+      type = 'boolean',
+      varname = 'p_vcur',
+    },
+    {
       abbreviation = 'vop',
       cb = 'did_set_viewoptions',
       defaults = { if_true = 'folds,cursor,curdir' },
